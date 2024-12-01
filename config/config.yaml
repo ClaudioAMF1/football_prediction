@@ -1,0 +1,62 @@
+# Configurações do projeto
+
+# API
+api:
+  base_url: "http://api.football-data.org/v4"
+  competition_id: 2013  # ID do Brasileirão
+  endpoints:
+    matches: "/competitions/{competition_id}/matches"
+    standings: "/competitions/{competition_id}/standings"
+    teams: "/teams/{team_id}"
+
+# Modelo
+model:
+  random_state: 42
+  test_size: 0.2
+  params:
+    n_estimators: 100
+    max_depth: 10
+    min_samples_split: 2
+    min_samples_leaf: 1
+
+# Caminhos dos arquivos
+paths:
+  data: "data/brasileirao_matches.csv"
+  model: "models/brasileirao_predictor.joblib"
+  logs: "logs/app.log"
+  standings: "data/classificacao.csv"
+
+# Parâmetros de processamento
+processing:
+  n_matches_form: 5  # Número de partidas para calcular forma recente
+  min_matches_required: 3  # Mínimo de partidas para fazer previsões
+  features:
+    - media_gols_marcados
+    - media_gols_sofridos
+    - jogos_sem_sofrer_gols
+    - media_pontos
+    - aproveitamento_casa
+    - aproveitamento_fora
+
+# Times do Brasileirão
+teams:
+  - América-MG
+  - Athletico-PR
+  - Atlético-MG
+  - Bahia
+  - Botafogo
+  - Corinthians
+  - Coritiba
+  - Cruzeiro
+  - Cuiabá
+  - Flamengo
+  - Fluminense
+  - Fortaleza
+  - Goiás
+  - Grêmio
+  - Internacional
+  - Palmeiras
+  - Red Bull Bragantino
+  - Santos
+  - São Paulo
+  - Vasco

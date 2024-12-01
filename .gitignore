@@ -1,0 +1,21 @@
+# IDEs
+.idea/
+.vscode/
+
+# Ambiente virtual
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de dados e modelos (opcional)
+data/
+models/
+logs/
+
+# Outros
+.DS_Store
