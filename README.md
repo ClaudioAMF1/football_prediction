@@ -56,7 +56,7 @@ football_prediction/
 ### Instalação
 1. Clone o repositório e entre no diretório:
 ```bash
-git clone https://github.com/seu-usuario/football_prediction.git
+git clone https://github.com/ClaudioAMF1/football_prediction.git
 cd football_prediction
 ```
 
