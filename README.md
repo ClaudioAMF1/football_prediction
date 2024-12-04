@@ -109,8 +109,5 @@ streamlit run streamlit_app/app.py
 - Ausência de fatores externos (lesões, clima)
 - Imprevisibilidade inerente do futebol
 
-## 📝 Licença
-Este projeto está sob a licença MIT.
-
 ## 👥 Autor
 - Claudio Meireles e Kelwin Menezes
