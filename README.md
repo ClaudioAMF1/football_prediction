@@ -20,7 +20,6 @@ Sistema de análise e previsão de resultados do Campeonato Brasileiro Série A 
 ## 📦 Estrutura do Projeto
 ```
 football_prediction/
-├── .cadence/              # Configurações do cadence
 ├── config/
 │   └── config.yaml        # Arquivo de configuração
 ├── data/
